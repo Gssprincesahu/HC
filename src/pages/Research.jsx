@@ -1,0 +1,60 @@
+const Research = () => {
+  return (
+    <div className="border border-[#76323F] p-3 sm:p-4 md:p-6 bg-[#D7CEC7]">
+
+      {/* Page Title */}
+      <h2 className="text-2xl sm:text-3xl font-semibold text-[#76323F]">
+        Research Projects
+      </h2>
+      <hr className="my-3 border-[#76323F]" />
+
+      <div className="overflow-x-auto -mx-3 sm:mx-0">
+        <table className="w-full border-collapse text-black text-sm sm:text-base">
+        <tbody>
+
+          {/* Project Title */}
+          <tr className="border-t border-[#76323F]">
+            <td colSpan="2" className="py-4 font-semibold text-[#76323F]">
+              Study of Derived Length and Nilpotency Class of Group Algebras
+            </td>
+          </tr>
+
+          {/* Period */}
+          <tr className="border-t border-[#76323F]">
+            <td className="py-3 w-1/4 font-semibold text-[#76323F]">
+              Period
+            </td>
+            <td className="py-3">
+              2017 – 2020
+            </td>
+          </tr>
+
+          {/* Funding */}
+          <tr className="border-t border-[#76323F]">
+            <td className="py-3 font-semibold text-[#76323F]">
+              Funding
+            </td>
+            <td className="py-3">
+              DST (SERB), New Delhi
+            </td>
+          </tr>
+
+          {/* Amount */}
+          <tr className="border-t border-[#76323F]">
+            <td className="py-3 font-semibold text-[#76323F]">
+              Amount
+            </td>
+            <td className="py-3 text-[#76323F] font-semibold">
+              Rs. 5.45 Lac
+            </td>
+          </tr>
+
+        </tbody>
+      </table>
+      </div>
+
+    </div>
+  );
+};
+
+export default Research;
