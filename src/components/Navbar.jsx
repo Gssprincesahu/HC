@@ -90,7 +90,7 @@ const Navbar = () => {
                 hover:after:scale-100
               "
             >
-              <span className="relative z-10 transition-transform duration-300 group-hover:rotate-6">
+              <span className="relative z-10 transition-transform duration-300  ">
                 <FlaskConical size={16} />
               </span>
               <span className="relative z-10 transition-all duration-300 group-hover:font-semibold">
@@ -148,7 +148,7 @@ const Navbar = () => {
                 transition-all duration-300 ease-out
               "
             >
-              <span className="relative z-10 transition-transform duration-300 group-hover:rotate-6">
+              <span className="relative z-10 transition-transform duration-300  ">
                 <FlaskConical size={16} />
               </span>
               <span className="relative z-10 inline-block transition-all duration-300 flex-grow">
@@ -198,7 +198,7 @@ const NavItem = ({ to, icon, label }) => (
       hover:after:scale-100
     "
   >
-    <span className="relative z-10 transition-transform duration-300 group-hover:rotate-6">
+    <span className="relative z-10 transition-transform duration-300  ">
       {icon}
     </span>
     <span className="relative z-10 transition-all duration-300">
@@ -227,7 +227,7 @@ const MobileNavItem = ({ to, label, onClick, icon }) => (
     "
   >
     {icon && (
-      <span className="relative z-10 transition-transform duration-300 group-hover:rotate-6">
+      <span className="relative z-10 transition-transform duration-300  ">
         {icon}
       </span>
     )}
@@ -247,7 +247,7 @@ const DropdownItem = ({ to, icon, label }) => (
       border-b border-gray-600 last:border-b-0
     "
   >
-    <span className="transition-transform duration-300 group-hover:rotate-6 text-white">
+    <span className="transition-transform duration-300   text-white">
       {icon}
     </span>
     <span className="transition-all duration-300 text-sm">
