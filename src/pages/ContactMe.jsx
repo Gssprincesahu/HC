@@ -2,7 +2,7 @@ import { Phone, Mail, MapPin } from "lucide-react";
 
 const Contact = () => {
   return (
-    <div className="border border-[#565656] p-6 bg-[#D7CEC7] text-black">
+    <div className="tabular-nums border border-[#565656] p-6 bg-[#D7CEC7] text-black">
 
       {/* Title */}
       <h2 className="text-3xl font-semibold text-[#76323F] mb-6">
